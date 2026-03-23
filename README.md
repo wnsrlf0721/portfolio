@@ -9,21 +9,27 @@
 > 새로운 기술을 꾸준하게 학습하는 것은 어려운 일이지만, 여러 번의 반복 학습으로 기술의 동작 과정을 이해하고자 합니다.  
 > 기술 서적과 컨퍼런스로 개발 지식을 넓혀가며, 최근 **대용량 트래픽 처리를 위한 성능 개선과 인프라 자동화**에 관심을 가지고 있습니다.
 >  
-> KDT 팀 프로젝트 과정을 통해 **GitHub Actions 기반 CI/CD 구축**, **Redis 활용 API 응답 속도 개선** 등  
-> 백엔드 개발자의 실무 문제 해결 역량을 기르고 있습니다.
+> KDT 팀 프로젝트 과정을 통해 **GitHub Actions 기반 CI/CD 자동화**, **Redis 활용 API 응답 속도 88% 개선** 등  
+> 백엔드 서비스의 실무 문제 해결 역량을 길렀습니다.
 
 <br />
 
 # 💼 Projects
 
-## 1. 🏢 스마트 아파트 통합관리 플랫폼
+## 1. 🏢 스마트 아파트 통합관리 플랫폼 ( 26. 01 - 02 )
+<img width="559" height="279" alt="image" src="https://github.com/user-attachments/assets/72ea5313-66f5-46e7-b566-10639e3787c7" />
 
- 아파트 입주민을 위한 편의성 App   
+
+ 아파트 입주민을 위한 편의성 App      
+ 핵심 기능에 따라 팀원 역할을 분배하였고, 전반적인 모바일App/백엔드/IoT 제어 모두를 담당했습니다.  
+ 
+ 
  ***[KDT] HDC랩스 IoT 풀스택 개발자 과정, 5인 팀 프로젝트***
  - 개발기간 : 2026.01.14-02.28
+  
  ### 핵심 역할
  - 서비스 개발: 로그인, 시설 예약, FCM 알림
- - CI/CD 인프라 구축: GitHub Actions 기반 배포 파이프라인 구축
+ - CI/CD 인프라 구축: GitHub Actions 기반 배포 스크립트, Docker Compose 컨테이너 구축
  - 성능 최적화: 서버 병목 지점 파악, Redis 캐싱 전략 도입으로 API 응답 시간 88% 개선
 
 > Back-end
@@ -36,11 +42,16 @@
 > - Language : typescript
 > - Skill : React Native, FCM
 
+> IoT (Raspberry PI)
+> - Language : Python
+> - Device : RPI Camera, Servo Motor
+
 [프로젝트 상세 설명](https://github.com/wnsrlf0721/HDC-NOVA-3rd)
 
 <br />
 
-## 2. 🌱 스마트팜, NOVA
+## 2. 🌱 스마트팜, NOVA ( 25. 12 - 26. 01 )
+<img width="559" height="279" alt="image" src="https://github.com/user-attachments/assets/449df604-bfc1-4d11-8fbf-f1409b5d979d" />
 
  가정용 스마트팜 플랫폼  
  ***[KDT] HDC랩스 IoT 풀스택 개발자 과정, 5인 팀 프로젝트***
@@ -67,6 +78,29 @@
 > [프로젝트 상세 설명](https://github.com/wnsrlf0721/Mid_Internship_Backend)
 
 <br />
+
+## 4. 📹 실시간 화상 스터디 플랫폼, SWith
+> WebRTC 기반의 실시간 화상 공유 및 학습 관리 서비스 
+> 아주대학교 소프트웨어 캡스톤 디자인, 팀 프로젝트 
+
+> 개발기간 : 2021.09.01-12.21
+
+핵심 역할 :
+
+- WebRTC 화상 공유 구현: Mesh 구조를 활용하여 추가 비용 없는 실시간 화상 통신 환경 구축 
+
+- CI/CD 인프라 구축: Jenkins를 활용하여 빌드 및 배포 프로세스 자동화 
+
+- 학습 관리 시스템: FullCalendar 및 ApexCharts를 연동하여 학습 일정 관리 및 통계 시각화 제공 
+
+- Language : javascript 
+
+- Skill : React, WebRTC, Jenkins, FullCalendar, ApexCharts 
+
+> [프로젝트 상세 설명](https://github.com/wnsrlf0721/SWith-FrontEnd)
+
+<br />
+
 
 
 <br />
